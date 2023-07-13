@@ -1,0 +1,17 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "strict": true,
+        "module": "node16",
+        "target": "es2017",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "lib": ["esnext"],
+        "outDir": "dist",
+        "rootDir": "src",
+        "skipLibCheck": true,
+        "declaration": true,
+        "emitDeclarationOnly": true
+    },
+    "exclude": ["node_modules"]
+}
